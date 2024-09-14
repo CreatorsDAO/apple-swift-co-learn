@@ -193,3 +193,122 @@ ZJU Creative Crew VC & Accelerator List
 ## 共学 QA
 
 [discussions](https://github.com/orgs/CreatorsDAO/discussions/categories/q-a)
+
+
+# 课后作业
+### **Sep14 课后作业：Swift 基础**
+
+#### **作业要求**：
+请完成以下 Swift 代码作业，涉及到 **变量与常量**、**数据类型（Int、Double、Bool、String）** 以及 **字符串插值** 的使用。每道题目请用注释解释代码的作用。
+
+---
+
+#### **1. 声明变量与常量**
+
+- 声明一个变量表示你的年龄，并将它修改为新的值。
+- 声明一个常量表示你的出生年份，并尝试修改它（期待报错）。
+
+```swift
+// 声明一个变量表示年龄
+var age: Int = 25
+print("我的年龄是：\(age)")
+
+// 修改年龄的值
+age = 26
+print("修改后的年龄是：\(age)")
+
+// 声明一个常量表示出生年份
+let birthYear: Int = 1995
+print("我的出生年份是：\(birthYear)")
+
+// birthYear = 1996  // 这里会报错，因为 birthYear 是常量，不能修改
+```
+
+---
+
+#### **2. 使用不同的数据类型**
+
+- 声明一个整数变量表示今天是几号。
+- 声明一个浮点数变量表示一个商品的折扣。
+- 声明一个布尔变量表示今天是否是晴天。
+
+```swift
+// 声明一个整数变量表示今天的日期
+var today: Int = 14
+print("今天是\(today)号")
+
+// 声明一个浮点数表示商品折扣
+var discount: Double = 0.25
+print("当前商品的折扣是：\(discount * 100)%")
+
+// 声明一个布尔变量表示是否晴天
+var isSunny: Bool = true
+print("今天是晴天吗？\(isSunny)")
+```
+
+---
+
+#### **3. 字符串与字符串插值**
+
+- 声明一个字符串变量表示你的名字。
+- 通过字符串插值，输出一句话，介绍你的名字和年龄。
+
+```swift
+// 声明一个字符串变量表示名字
+var name: String = "李晨啸"
+
+// 使用字符串插值输出一句话
+print("大家好，我叫\(name)，今年\(age)岁。")
+```
+
+---
+
+#### **4. 类型转换**
+
+- 声明一个整数表示你拥有的苹果数量。
+- 声明一个浮点数表示每个苹果的价格。
+- 通过类型转换，计算并输出购买这些苹果的总价格。
+
+```swift
+// 声明一个整数表示苹果数量
+var numberOfApples: Int = 4
+
+// 声明一个浮点数表示每个苹果的价格
+var applePrice: Double = 2.99
+
+// 计算总价，并使用类型转换将整数转换为浮点数
+let totalPrice: Double = Double(numberOfApples) * applePrice
+print("我买了\(numberOfApples)个苹果，总价格是\(totalPrice)元。")
+```
+
+---
+
+#### **5. 逻辑运算**
+
+- 声明两个布尔变量，表示是否是周末和是否是假期。
+- 使用逻辑运算符，判断今天是否是休息日。
+
+```swift
+// 声明两个布尔变量
+var isWeekend: Bool = false
+var isHoliday: Bool = true
+
+// 使用逻辑运算符判断是否是休息日
+let isRestDay: Bool = isWeekend || isHoliday
+print("今天是休息日吗？\(isRestDay)")
+```
+
+---
+
+#### **6. 综合练习**
+
+- 声明一个常量表示圆的半径，使用公式计算并输出圆的面积。
+  > 提示：面积公式为 `π * r * r`，其中 `π` 可以使用 `Double.pi`。
+
+```swift
+// 声明常量表示圆的半径
+let radius: Double = 5.0
+
+// 计算圆的面积
+let area: Double = Double.pi * radius * radius
+print("半径为\(radius)的圆的面积是：\(area)")
