@@ -1,1 +1,0 @@
-var greeting = "Hello, playground"
