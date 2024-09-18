@@ -43,6 +43,18 @@ var fruits = ["Apple", "Banana", "Cherry"]
 fruits.append("Orange")  // 添加元素到数组中
 print(fruits[0])  // 访问数组的第一个元素，输出：Apple
 
+// 更多例子：
+var myNumbers = [1, 2, 3, 4, 5]
+myNumbers.remove(at: 2)  // 移除数组中的第三个元素
+print(myNumbers)  // 输出：[1, 2, 4, 5]
+
+var colors = ["Red", "Green", "Blue"]
+colors[1] = "Yellow"  // 修改数组中的元素
+print(colors)  // 输出：["Red", "Yellow", "Blue"]
+
+let emptyArray: [String] = []  // 创建一个空的字符串数组
+print(emptyArray.isEmpty)  // 检查数组是否为空，输出：true
+
 
 // MARK: - 5. 字典
 
@@ -52,6 +64,20 @@ print(person["name"]!)  // 强制解包，输出：John
 person["profession"] = "Engineer"  // 添加新的键值对
 print(person)  // 输出：["name": "John", "age": "30", "profession": "Engineer"]
 
+// 更多例子：
+var capitals = ["France": "Paris", "Japan": "Tokyo"]
+capitals["Germany"] = "Berlin"  // 添加新的键值对
+print(capitals)  // 输出：["France": "Paris", "Japan": "Tokyo", "Germany": "Berlin"]
+
+capitals["Japan"] = "Kyoto"  // 修改字典中的值
+print(capitals)  // 输出：["France": "Paris", "Japan": "Kyoto", "Germany": "Berlin"]
+
+capitals.removeValue(forKey: "France")  // 移除字典中的键值对
+print(capitals)  // 输出：["Japan": "Kyoto", "Germany": "Berlin"]
+
+if let capital = capitals["Germany"] {
+    print("The capital of Germany is \(capital)")  // 输出：The capital of Germany is Berlin
+}
 
 // MARK: - 6. 条件语句
 
@@ -65,6 +91,25 @@ if score >= 90 {
     print("不及格")  // 否则输出 "不及格"
 }
 
+// 更多例子：
+let temperature = 30
+if temperature > 35 {
+    print("非常热")  // 输出：非常热
+} else if temperature > 20 {
+    print("天气适中")  // 输出：天气适中
+} else {
+    print("比较冷")  // 输出：比较冷
+}
+
+let isRaining = true
+let isSnowing = false
+if isRaining {
+    print("带伞出门")  // 输出：带伞出门
+} else if isSnowing {
+    print("穿厚衣服")  // 输出：穿厚衣服
+} else {
+    print("天气晴朗")  // 输出：天气晴朗
+}
 
 // MARK: - 7. 循环
 
@@ -78,6 +123,26 @@ for i in 1...5 {
     print("第 \(i) 次循环")  // 输出从 1 到 5 的循环次数
 }
 
+// 更多例子：
+let names = ["Alice", "Bob", "Charlie"]
+for name in names {
+    print("Hello, \(name)")  // 输出：Hello, Alice 等等
+}
+
+let personInfo = ["name": "John", "age": "30", "profession": "Engineer"]
+for (key, value) in personInfo {
+    print("\(key): \(value)")  // 输出每个键值对
+}
+
+for i in stride(from: 0, to: 10, by: 2) {
+    print(i)  // 每次递增 2，输出：0, 2, 4, 6, 8
+}
+
+var countdown = 5
+while countdown > 0 {
+    print("倒计时：\(countdown)")
+    countdown -= 1
+}
 
 // MARK: - 8. 函数
 
@@ -89,6 +154,25 @@ func greet(name: String) -> String {
 let greetingMessage = greet(name: "Alice")
 print(greetingMessage)  // 输出：Hello, Alice!
 
+// 更多例子：
+func add(a: Int, b: Int) -> Int {
+    return a + b  // 返回两个数的和
+}
+
+let sum = add(a: 5, b: 10)
+print("Sum: \(sum)")  // 输出：Sum: 15
+
+func multiply(a: Int, b: Int) -> Int {
+    return a * b  // 返回两个数的乘积
+}
+print(multiply(a: 3, b: 4))  // 输出：12
+
+func greetEveryone(names: [String]) {
+    for name in names {
+        print("Hello, \(name)!")
+    }
+}
+greetEveryone(names: ["Alice", "Bob", "Charlie"])  // 分别问候每个人
 
 // MARK: - 9. 可选类型（Optionals）
 
@@ -97,12 +181,27 @@ var optionalName: String? = "John"
 if let name = optionalName {
     print("Hello, \(name)")  // 如果 optionalName 有值，则输出 "Hello, John"
 } else {
-    print("No name provided")  // 如果 optionalName 为 nil，输出 "No name provided"
+    print("No name provided")
 }
 
 optionalName = nil  // 将 optionalName 设置为 nil
 print(optionalName ?? "Default Name")  // 使用 ?? 运算符提供默认值，输出：Default Name
 
+// 更多例子：
+var age: Int? = 25
+if let actualAge = age {
+    print("Age is \(actualAge)")  // 输出：Age is 25
+} else {
+    print("Age is not provided")
+}
+
+age = nil
+print(age ?? 18)  // 输出默认值 18
+
+var city: String? = "New York"
+print(city ?? "Unknown City")  // 输出：New York
+city = nil
+print(city ?? "Unknown City")  // 输出：Unknown City
 
 // MARK: - 10. 结构体
 
@@ -118,3 +217,29 @@ struct Person {
 
 let personInstance = Person(name: "Alice", age: 30)
 personInstance.greet()  // 输出：Hello, my name is Alice and I am 30 years old.
+
+// 更多例子：
+struct Car {
+    var make: String
+    var model: String
+    var year: Int
+    
+    func description() {
+        print("This car is a \(year) \(make) \(model).")
+    }
+}
+
+let myCar = Car(make: "Toyota", model: "Corolla", year: 2020)
+myCar.description()  // 输出：This car is a 2020 Toyota Corolla.
+
+struct Rectangle {
+    var width: Double
+    var height: Double
+    
+    func area() -> Double {
+        return width * height  // 计算矩形的面积
+    }
+}
+
+let rectangle = Rectangle(width: 5.0, height: 10.0)
+print("Area: \(rectangle.area())")  // 输出：Area: 50.0
