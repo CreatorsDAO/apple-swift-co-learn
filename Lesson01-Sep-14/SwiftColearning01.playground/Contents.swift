@@ -39,14 +39,19 @@ print(message)  // 输出：Welcome to Swift version 5.7!
 // MARK: - 4. 数组
 
 // 数组是用于存储相同类型元素的集合
-var fruits = ["Apple", "Banana", "Cherry"]
+var fruits = ["Apple", "Apple", "Banana", "Cherry"]
 fruits.append("Orange")  // 添加元素到数组中
+let aSpecificFruit = fruits[4]
 print(fruits[0])  // 访问数组的第一个元素，输出：Apple
+
+var animals = ["cat", "dog", "dinosaur"]
+
 
 // 更多例子：
 var myNumbers = [1, 2, 3, 4, 5]
 myNumbers.remove(at: 2)  // 移除数组中的第三个元素
-print(myNumbers)  // 输出：[1, 2, 4, 5]
+myNumbers.removeAll()
+print(myNumbers)  // 输出：[1, 2, 4, 5]]
 
 var colors = ["Red", "Green", "Blue"]
 colors[1] = "Yellow"  // 修改数组中的元素
@@ -54,6 +59,9 @@ print(colors)  // 输出：["Red", "Yellow", "Blue"]
 
 let emptyArray: [String] = []  // 创建一个空的字符串数组
 print(emptyArray.isEmpty)  // 检查数组是否为空，输出：true
+
+var fruitsAndColors: [[String]] = [["Apple", "Apple", "Banana", "Cherry"], ["Red", "Green", "Blue"]]
+let fruitOrColor = fruitsAndColors[1][1]
 
 
 // MARK: - 5. 字典
@@ -63,6 +71,8 @@ var person = ["name": "John", "age": "30"]
 print(person["name"]!)  // 强制解包，输出：John
 person["profession"] = "Engineer"  // 添加新的键值对
 print(person)  // 输出：["name": "John", "age": "30", "profession": "Engineer"]
+
+var foods = ["hotdog": 200, "riceball": 100]
 
 // 更多例子：
 var capitals = ["France": "Paris", "Japan": "Tokyo"]
@@ -216,7 +226,9 @@ struct Person {
 }
 
 let personInstance = Person(name: "Alice", age: 30)
+let race = Person(name: "Race", age: 26)
 personInstance.greet()  // 输出：Hello, my name is Alice and I am 30 years old.
+race.greet()
 
 // 更多例子：
 struct Car {
@@ -243,3 +255,4 @@ struct Rectangle {
 
 let rectangle = Rectangle(width: 5.0, height: 10.0)
 print("Area: \(rectangle.area())")  // 输出：Area: 50.0
+
