@@ -196,7 +196,7 @@ ZJU Creative Crew VC & Accelerator List
 
 
 # 课后作业
-### **Sep14 课后作业：Swift 基础**
+## **Sep14 课后作业：Swift 基础上**
 
 #### **作业要求**：
 请完成以下 Swift 代码作业，涉及到 **变量与常量**、**数据类型（Int、Double、Bool、String）** 以及 **字符串插值** 的使用。每道题目请用注释解释代码的作用。
@@ -312,3 +312,235 @@ let radius: Double = 5.0
 // 计算圆的面积
 let area: Double = Double.pi * radius * radius
 print("半径为\(radius)的圆的面积是：\(area)")
+```
+
+---
+
+## **Sep18 课后作业：Swift 基础下**
+课后作业：
+- 完成如下的代码练习
+- 下载当前工程，查看、运行每一个SwiftUI编写的页面
+- （可选）快速过一遍Swift语法的更详细的内容：https://gitbook.swiftgg.team/swift/swift-jiao-cheng
+
+### 1. **数组操作**
+
+#### 题目：
+创建一个包含 5 个不同水果名称的数组，并进行以下操作：
+- 添加一个新水果到数组中。
+- 修改数组中的第 3 个水果。
+- 删除第 2 个水果。
+- 输出数组的第 1 个水果和最后一个水果。
+
+#### 答案：
+
+```swift
+var fruits = ["Apple", "Banana", "Cherry", "Grape", "Mango"]
+
+// 添加新水果
+fruits.append("Orange")
+
+// 修改第3个水果
+fruits[2] = "Pineapple"
+
+// 删除第2个水果
+fruits.remove(at: 1)
+
+// 输出第1个和最后一个水果
+print("First fruit: \(fruits[0])")  // 输出：Apple
+print("Last fruit: \(fruits[fruits.count - 1])")  // 输出：Orange
+```
+
+---
+
+### 2. **字典操作**
+
+#### 题目：
+创建一个包含 3 个国家及其首都的字典，进行以下操作：
+- 添加一个新国家及其首都。
+- 修改字典中某个国家的首都。
+- 删除一个国家。
+- 输出所有国家及其首都。
+
+#### 答案：
+
+```swift
+var capitals = ["China": "Beijing", "USA": "Washington", "UK": "London"]
+
+// 添加新国家和首都
+capitals["Germany"] = "Berlin"
+
+// 修改某个国家的首都
+capitals["USA"] = "New York"
+
+// 删除一个国家
+capitals.removeValue(forKey: "UK")
+
+// 输出所有国家和首都
+for (country, capital) in capitals {
+    print("\(country): \(capital)")
+}
+// 输出：
+// China: Beijing
+// USA: New York
+// Germany: Berlin
+```
+
+---
+
+### 3. **条件语句**
+
+#### 题目：
+根据一个分数，判断该分数是 "优秀"、"及格" 还是 "不及格"。分数：
+- 大于等于 90 为 "优秀"。
+- 大于等于 60 且小于 90 为 "及格"。
+- 小于 60 为 "不及格"。
+
+#### 答案：
+
+```swift
+let score = 75
+
+if score >= 90 {
+    print("优秀")
+} else if score >= 60 {
+    print("及格")
+} else {
+    print("不及格")
+}
+// 输出：及格
+```
+
+---
+
+### 4. **循环**
+
+#### 题目：
+- 使用 `for-in` 循环，遍历一个包含 5 个数字的数组，并输出每个数字的平方值。
+- 使用 `while` 循环，输出从 10 开始的倒计时，并在倒计时结束时输出 "倒计时结束"。
+
+#### 答案：
+
+```swift
+// for-in 循环
+let numbers = [1, 2, 3, 4, 5]
+for number in numbers {
+    print("\(number) 的平方是 \(number * number)")
+}
+// 输出：
+// 1 的平方是 1
+// 2 的平方是 4
+// 3 的平方是 9
+// 4 的平方是 16
+// 5 的平方是 25
+
+// while 循环
+var countdown = 10
+while countdown > 0 {
+    print("倒计时：\(countdown)")
+    countdown -= 1
+}
+print("倒计时结束")
+// 输出：
+// 倒计时：10
+// 倒计时：9
+// ...
+// 倒计时结束
+```
+
+---
+
+### 5. **函数**
+
+#### 题目：
+- 编写一个函数，接收两个整数 `a` 和 `b`，返回它们的和。
+- 编写一个函数，接收字符串数组，输出每个名字带有 "Hello" 的问候语。
+
+#### 答案：
+
+```swift
+// 返回和的函数
+func add(a: Int, b: Int) -> Int {
+    return a + b
+}
+
+let result = add(a: 5, b: 7)
+print("Sum: \(result)")  // 输出：Sum: 12
+
+// 打印问候语的函数
+func greetEveryone(names: [String]) {
+    for name in names {
+        print("Hello, \(name)!")
+    }
+}
+
+greetEveryone(names: ["Alice", "Bob", "Charlie"])
+// 输出：
+// Hello, Alice!
+// Hello, Bob!
+// Hello, Charlie!
+```
+
+---
+
+### 6. **可选类型（Optionals）**
+
+#### 题目：
+- 定义一个可选类型的 `String` 变量。使用 `if let` 语法解包并打印它，如果没有值则打印 "无名字"。
+- 定义一个可选类型的整数变量。使用 `??` 提供默认值，并打印结果。
+
+#### 答案：
+
+```swift
+// 可选字符串
+var optionalName: String? = "John"
+
+if let name = optionalName {
+    print("Hello, \(name)")
+} else {
+    print("无名字")
+}
+// 输出：Hello, John
+
+// 可选整数
+var age: Int? = nil
+print("Age: \(age ?? 18)")  // 输出：Age: 18
+```
+
+---
+
+### 7. **结构体**
+
+#### 题目：
+- 定义一个 `Car` 结构体，包含 `make`（品牌）、`model`（型号）和 `year`（年份）三个属性，以及一个描述车辆的 `description` 方法。创建一个 `Car` 实例并调用 `description` 方法。
+- 定义一个 `Rectangle` 结构体，包含 `width` 和 `height` 两个属性，并定义一个方法计算矩形的面积。创建一个 `Rectangle` 实例并计算并输出面积。
+
+#### 答案：
+
+```swift
+// Car 结构体
+struct Car {
+    var make: String
+    var model: String
+    var year: Int
+    
+    func description() {
+        print("This car is a \(year) \(make) \(model).")
+    }
+}
+
+let myCar = Car(make: "Honda", model: "Civic", year: 2021)
+myCar.description()  // 输出：This car is a 2021 Honda Civic.
+
+// Rectangle 结构体
+struct Rectangle {
+    var width: Double
+    var height: Double
+    
+    func area() -> Double {
+        return width * height
+    }
+}
+
+let rectangle = Rectangle(width: 10.0, height: 5.0)
+print("Area: \(rectangle.area())")  // 输出：Area: 50.0
+```
