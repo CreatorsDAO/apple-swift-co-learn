@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B093B472C9EDFEA0079782A /* TabDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B093B462C9EDFEA0079782A /* TabDemoView.swift */; };
+		1B093B492C9EE1560079782A /* NavigationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B093B482C9EE1560079782A /* NavigationDemoView.swift */; };
 		1B0E3FBE2C9AE2F60039EF91 /* MusicPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0E3FBD2C9AE2F60039EF91 /* MusicPlayerView.swift */; };
 		1B0E3FC02C9AE96A0039EF91 /* demo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B0E3FBF2C9AE96A0039EF91 /* demo.mp3 */; };
 		1B0E3FC22C9AEDB50039EF91 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0E3FC12C9AEDB50039EF91 /* StackView.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B093B462C9EDFEA0079782A /* TabDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabDemoView.swift; sourceTree = "<group>"; };
+		1B093B482C9EE1560079782A /* NavigationDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDemoView.swift; sourceTree = "<group>"; };
 		1B0E3FBD2C9AE2F60039EF91 /* MusicPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerView.swift; sourceTree = "<group>"; };
 		1B0E3FBF2C9AE96A0039EF91 /* demo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = demo.mp3; sourceTree = "<group>"; };
 		1B0E3FC12C9AEDB50039EF91 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 			children = (
 				1B49013A2C956B8A00E66FCE /* SwiftColearning01App.swift */,
 				1B49013C2C956B8A00E66FCE /* ContentView.swift */,
+				1B093B462C9EDFEA0079782A /* TabDemoView.swift */,
+				1B093B482C9EE1560079782A /* NavigationDemoView.swift */,
 				1B4233E92C9B0D5C00B3F673 /* DemoView.swift */,
 				1B0E3FBD2C9AE2F60039EF91 /* MusicPlayerView.swift */,
 				1B4901482C95A41800E66FCE /* ProfileView.swift */,
@@ -155,6 +161,8 @@
 			files = (
 				1B49013D2C956B8A00E66FCE /* ContentView.swift in Sources */,
 				1B4233EA2C9B0D5C00B3F673 /* DemoView.swift in Sources */,
+				1B093B472C9EDFEA0079782A /* TabDemoView.swift in Sources */,
+				1B093B492C9EE1560079782A /* NavigationDemoView.swift in Sources */,
 				1B0E3FBE2C9AE2F60039EF91 /* MusicPlayerView.swift in Sources */,
 				1B4901492C95A41800E66FCE /* ProfileView.swift in Sources */,
 				1B49013B2C956B8A00E66FCE /* SwiftColearning01App.swift in Sources */,
