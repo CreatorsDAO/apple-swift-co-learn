@@ -2,7 +2,7 @@ import SwiftUI
 
 struct NavigationDemoView: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
                 // 导航到详情视图
                 NavigationLink(destination: DetailView(text: "First Item Detail")) {
