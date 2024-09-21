@@ -3,6 +3,35 @@ import SwiftUI
 struct StackView: View {
     var body: some View {
         ScrollView {
+            
+            Image("cat")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 200, height: 200)
+                .clipped()
+                .cornerRadius(20)
+            
+            
+            Image(systemName: "moon.dust.fill")
+                .font(.system(size: 200, weight: .ultraLight))
+            
+            Text("hello World")
+                .foregroundColor(.mint)
+                .font(.system(size: 40, weight: .heavy))
+                .padding()
+                .background(Color.black)
+                .cornerRadius(12)
+                .padding()
+                .background(Color.red)
+                .cornerRadius(20)
+            
+            Text("Hi, my name is Race")
+                .padding()
+                .background(Color.orange)
+                .foregroundColor(.white)
+            
+            Text("Placeholder")
+            
             VStack(spacing: 30) {
                 // MARK: - VStack 示例
                 VStack {

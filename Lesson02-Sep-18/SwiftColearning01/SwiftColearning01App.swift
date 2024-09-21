@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftColearning01App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabsView()
         }
     }
 }
