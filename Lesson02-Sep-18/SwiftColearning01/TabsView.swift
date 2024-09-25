@@ -10,6 +10,13 @@ import SwiftUI
 struct TabsView: View {
     var body: some View {
         TabView {
+            
+            NavigationView()
+                .tabItem {
+                    Text("Navi Demo")
+                    Image(systemName: "arrow.left.arrow.right.circle")
+                }
+            
             ProfileView()
                 .tabItem {
                     Text("Home")

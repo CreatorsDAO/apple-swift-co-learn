@@ -21,6 +21,8 @@
 		1B49013F2C956B8B00E66FCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B49013E2C956B8B00E66FCE /* Assets.xcassets */; };
 		1B4901422C956B8B00E66FCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B4901412C956B8B00E66FCE /* Preview Assets.xcassets */; };
 		1B4901492C95A41800E66FCE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4901482C95A41800E66FCE /* ProfileView.swift */; };
+		1BB53F662CA4344900D8420F /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB53F652CA4344900D8420F /* NavigationView.swift */; };
+		1BB53F682CA43A4D00D8420F /* StateBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB53F672CA43A4D00D8420F /* StateBindingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		1B49013E2C956B8B00E66FCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B4901412C956B8B00E66FCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1B4901482C95A41800E66FCE /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		1BB53F652CA4344900D8420F /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		1BB53F672CA43A4D00D8420F /* StateBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBindingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 				1B093B462C9EDFEA0079782A /* TabDemoView.swift */,
 				1B093B4E2C9EFDDD0079782A /* TabsView.swift */,
 				1B093B482C9EE1560079782A /* NavigationDemoView.swift */,
+				1BB53F652CA4344900D8420F /* NavigationView.swift */,
+				1BB53F672CA43A4D00D8420F /* StateBindingView.swift */,
 				1B093B4A2C9EE8E90079782A /* StateBindingDemoView.swift */,
 				1B4233E92C9B0D5C00B3F673 /* DemoView.swift */,
 				1B0E3FBD2C9AE2F60039EF91 /* MusicPlayerView.swift */,
@@ -174,10 +180,12 @@
 				1B093B472C9EDFEA0079782A /* TabDemoView.swift in Sources */,
 				1B093B4F2C9EFDDD0079782A /* TabsView.swift in Sources */,
 				1B093B492C9EE1560079782A /* NavigationDemoView.swift in Sources */,
+				1BB53F682CA43A4D00D8420F /* StateBindingView.swift in Sources */,
 				1B0E3FBE2C9AE2F60039EF91 /* MusicPlayerView.swift in Sources */,
 				1B4901492C95A41800E66FCE /* ProfileView.swift in Sources */,
 				1B49013B2C956B8A00E66FCE /* SwiftColearning01App.swift in Sources */,
 				1B093B4B2C9EE8E90079782A /* StateBindingDemoView.swift in Sources */,
+				1BB53F662CA4344900D8420F /* NavigationView.swift in Sources */,
 				1B0E3FC22C9AEDB50039EF91 /* StackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,11 +323,13 @@
 				DEVELOPMENT_TEAM = DLYUQU3Z5W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Learn Swift";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,11 +354,13 @@
 				DEVELOPMENT_TEAM = DLYUQU3Z5W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Learn Swift";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
