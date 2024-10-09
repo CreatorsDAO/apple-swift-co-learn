@@ -7,135 +7,134 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BD13A7A2CA80D4C00EF2E48 /* TodoListMVVMDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD13A792CA80D4C00EF2E48 /* TodoListMVVMDemoApp.swift */; };
-		1BD13A7C2CA80D4C00EF2E48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD13A7B2CA80D4C00EF2E48 /* ContentView.swift */; };
-		1BD13A7E2CA80D4D00EF2E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BD13A7D2CA80D4D00EF2E48 /* Assets.xcassets */; };
-		1BD13A812CA80D4D00EF2E48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BD13A802CA80D4D00EF2E48 /* Preview Assets.xcassets */; };
-		1BD13A882CA80DD500EF2E48 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD13A872CA80DD500EF2E48 /* TodoModel.swift */; };
-		1BD13A8A2CA80DF800EF2E48 /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD13A892CA80DF800EF2E48 /* TodoViewModel.swift */; };
-		1BD13A8C2CA830D300EF2E48 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD13A8B2CA830D300EF2E48 /* UserModel.swift */; };
+		1BE037132CB564B000121407 /* AIChatDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE037122CB564B000121407 /* AIChatDemoApp.swift */; };
+		1BE037172CB564B100121407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BE037162CB564B100121407 /* Assets.xcassets */; };
+		1BE0371A2CB564B100121407 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BE037192CB564B100121407 /* Preview Assets.xcassets */; };
+		1BE037212CB56EFB00121407 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE037202CB56EFB00121407 /* ContentView.swift */; };
+		1BE037282CB67C7900121407 /* AlamofireChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE037272CB67C7900121407 /* AlamofireChatView.swift */; };
+		1BE0372A2CB67E3400121407 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE037292CB67E3400121407 /* Message.swift */; };
+		3686A2288903BD9B9AEAEBB3 /* Pods_AIChatDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1E631023410381DC8B7228 /* Pods_AIChatDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1BD13A762CA80D4C00EF2E48 /* TodoListMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoListMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BD13A792CA80D4C00EF2E48 /* TodoListMVVMDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListMVVMDemoApp.swift; sourceTree = "<group>"; };
-		1BD13A7B2CA80D4C00EF2E48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1BD13A7D2CA80D4D00EF2E48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1BD13A802CA80D4D00EF2E48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1BD13A872CA80DD500EF2E48 /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
-		1BD13A892CA80DF800EF2E48 /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
-		1BD13A8B2CA830D300EF2E48 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		1BE0370F2CB564B000121407 /* AIChatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIChatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE037122CB564B000121407 /* AIChatDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatDemoApp.swift; sourceTree = "<group>"; };
+		1BE037162CB564B100121407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BE037192CB564B100121407 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1BE037202CB56EFB00121407 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1BE037272CB67C7900121407 /* AlamofireChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireChatView.swift; sourceTree = "<group>"; };
+		1BE037292CB67E3400121407 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		BC1E631023410381DC8B7228 /* Pods_AIChatDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AIChatDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93059349B0B30EB983C8070 /* Pods-AIChatDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIChatDemo.release.xcconfig"; path = "Target Support Files/Pods-AIChatDemo/Pods-AIChatDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D169EBB0470B196AD3082066 /* Pods-AIChatDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIChatDemo.debug.xcconfig"; path = "Target Support Files/Pods-AIChatDemo/Pods-AIChatDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1BD13A732CA80D4C00EF2E48 /* Frameworks */ = {
+		1BE0370C2CB564B000121407 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3686A2288903BD9B9AEAEBB3 /* Pods_AIChatDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1BD13A6D2CA80D4C00EF2E48 = {
+		1BE037062CB564B000121407 = {
 			isa = PBXGroup;
 			children = (
-				1BD13A782CA80D4C00EF2E48 /* TodoListMVVMDemo */,
-				1BD13A772CA80D4C00EF2E48 /* Products */,
+				1BE037112CB564B000121407 /* AIChatDemo */,
+				1BE037102CB564B000121407 /* Products */,
+				75FF0C33CE90AA6E26C369D1 /* Pods */,
+				7D2F613DD70359BAE7E1F722 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		1BD13A772CA80D4C00EF2E48 /* Products */ = {
+		1BE037102CB564B000121407 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1BD13A762CA80D4C00EF2E48 /* TodoListMVVMDemo.app */,
+				1BE0370F2CB564B000121407 /* AIChatDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1BD13A782CA80D4C00EF2E48 /* TodoListMVVMDemo */ = {
+		1BE037112CB564B000121407 /* AIChatDemo */ = {
 			isa = PBXGroup;
 			children = (
-				1BD13A792CA80D4C00EF2E48 /* TodoListMVVMDemoApp.swift */,
-				1BD13A8F2CA830F400EF2E48 /* Views */,
-				1BD13A8D2CA830D700EF2E48 /* Models */,
-				1BD13A8E2CA830E700EF2E48 /* ViewModels */,
-				1BD13A7D2CA80D4D00EF2E48 /* Assets.xcassets */,
-				1BD13A7F2CA80D4D00EF2E48 /* Preview Content */,
+				1BE037122CB564B000121407 /* AIChatDemoApp.swift */,
+				1BE037202CB56EFB00121407 /* ContentView.swift */,
+				1BE037292CB67E3400121407 /* Message.swift */,
+				1BE037272CB67C7900121407 /* AlamofireChatView.swift */,
+				1BE037162CB564B100121407 /* Assets.xcassets */,
+				1BE037182CB564B100121407 /* Preview Content */,
 			);
-			path = TodoListMVVMDemo;
+			path = AIChatDemo;
 			sourceTree = "<group>";
 		};
-		1BD13A7F2CA80D4D00EF2E48 /* Preview Content */ = {
+		1BE037182CB564B100121407 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				1BD13A802CA80D4D00EF2E48 /* Preview Assets.xcassets */,
+				1BE037192CB564B100121407 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		1BD13A8D2CA830D700EF2E48 /* Models */ = {
+		75FF0C33CE90AA6E26C369D1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1BD13A872CA80DD500EF2E48 /* TodoModel.swift */,
-				1BD13A8B2CA830D300EF2E48 /* UserModel.swift */,
+				D169EBB0470B196AD3082066 /* Pods-AIChatDemo.debug.xcconfig */,
+				C93059349B0B30EB983C8070 /* Pods-AIChatDemo.release.xcconfig */,
 			);
-			path = Models;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		1BD13A8E2CA830E700EF2E48 /* ViewModels */ = {
+		7D2F613DD70359BAE7E1F722 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1BD13A892CA80DF800EF2E48 /* TodoViewModel.swift */,
+				BC1E631023410381DC8B7228 /* Pods_AIChatDemo.framework */,
 			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		1BD13A8F2CA830F400EF2E48 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				1BD13A7B2CA80D4C00EF2E48 /* ContentView.swift */,
-			);
-			path = Views;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1BD13A752CA80D4C00EF2E48 /* TodoListMVVMDemo */ = {
+		1BE0370E2CB564B000121407 /* AIChatDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BD13A842CA80D4D00EF2E48 /* Build configuration list for PBXNativeTarget "TodoListMVVMDemo" */;
+			buildConfigurationList = 1BE0371D2CB564B100121407 /* Build configuration list for PBXNativeTarget "AIChatDemo" */;
 			buildPhases = (
-				1BD13A722CA80D4C00EF2E48 /* Sources */,
-				1BD13A732CA80D4C00EF2E48 /* Frameworks */,
-				1BD13A742CA80D4C00EF2E48 /* Resources */,
+				46A9786FA4B84E3644A93599 /* [CP] Check Pods Manifest.lock */,
+				1BE0370B2CB564B000121407 /* Sources */,
+				1BE0370C2CB564B000121407 /* Frameworks */,
+				1BE0370D2CB564B000121407 /* Resources */,
+				1E6E3298E8C8955B7B342B0F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TodoListMVVMDemo;
-			productName = TodoListMVVMDemo;
-			productReference = 1BD13A762CA80D4C00EF2E48 /* TodoListMVVMDemo.app */;
+			name = AIChatDemo;
+			productName = AIChatDemo;
+			productReference = 1BE0370F2CB564B000121407 /* AIChatDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1BD13A6E2CA80D4C00EF2E48 /* Project object */ = {
+		1BE037072CB564B000121407 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					1BD13A752CA80D4C00EF2E48 = {
+					1BE0370E2CB564B000121407 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = 1BD13A712CA80D4C00EF2E48 /* Build configuration list for PBXProject "TodoListMVVMDemo" */;
+			buildConfigurationList = 1BE0370A2CB564B000121407 /* Build configuration list for PBXProject "AIChatDemo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -143,45 +142,86 @@
 				en,
 				Base,
 			);
-			mainGroup = 1BD13A6D2CA80D4C00EF2E48;
-			productRefGroup = 1BD13A772CA80D4C00EF2E48 /* Products */;
+			mainGroup = 1BE037062CB564B000121407;
+			productRefGroup = 1BE037102CB564B000121407 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1BD13A752CA80D4C00EF2E48 /* TodoListMVVMDemo */,
+				1BE0370E2CB564B000121407 /* AIChatDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1BD13A742CA80D4C00EF2E48 /* Resources */ = {
+		1BE0370D2CB564B000121407 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BD13A812CA80D4D00EF2E48 /* Preview Assets.xcassets in Resources */,
-				1BD13A7E2CA80D4D00EF2E48 /* Assets.xcassets in Resources */,
+				1BE0371A2CB564B100121407 /* Preview Assets.xcassets in Resources */,
+				1BE037172CB564B100121407 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E6E3298E8C8955B7B342B0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AIChatDemo/Pods-AIChatDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AIChatDemo/Pods-AIChatDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AIChatDemo/Pods-AIChatDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46A9786FA4B84E3644A93599 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AIChatDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		1BD13A722CA80D4C00EF2E48 /* Sources */ = {
+		1BE0370B2CB564B000121407 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BD13A8A2CA80DF800EF2E48 /* TodoViewModel.swift in Sources */,
-				1BD13A882CA80DD500EF2E48 /* TodoModel.swift in Sources */,
-				1BD13A7C2CA80D4C00EF2E48 /* ContentView.swift in Sources */,
-				1BD13A8C2CA830D300EF2E48 /* UserModel.swift in Sources */,
-				1BD13A7A2CA80D4C00EF2E48 /* TodoListMVVMDemoApp.swift in Sources */,
+				1BE037212CB56EFB00121407 /* ContentView.swift in Sources */,
+				1BE0372A2CB67E3400121407 /* Message.swift in Sources */,
+				1BE037132CB564B000121407 /* AIChatDemoApp.swift in Sources */,
+				1BE037282CB67C7900121407 /* AlamofireChatView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1BD13A822CA80D4D00EF2E48 /* Debug */ = {
+		1BE0371B2CB564B100121407 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -218,7 +258,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -244,7 +284,7 @@
 			};
 			name = Debug;
 		};
-		1BD13A832CA80D4D00EF2E48 /* Release */ = {
+		1BE0371C2CB564B100121407 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,7 +321,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -300,14 +340,15 @@
 			};
 			name = Release;
 		};
-		1BD13A852CA80D4D00EF2E48 /* Debug */ = {
+		1BE0371E2CB564B100121407 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D169EBB0470B196AD3082066 /* Pods-AIChatDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TodoListMVVMDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AIChatDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = DLYUQU3Z5W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -321,7 +362,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = RaceLi.TodoListMVVMDemo;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = RaceLi.AIChatDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -329,14 +371,15 @@
 			};
 			name = Debug;
 		};
-		1BD13A862CA80D4D00EF2E48 /* Release */ = {
+		1BE0371F2CB564B100121407 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C93059349B0B30EB983C8070 /* Pods-AIChatDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TodoListMVVMDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AIChatDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = DLYUQU3Z5W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -350,7 +393,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = RaceLi.TodoListMVVMDemo;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = RaceLi.AIChatDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -361,25 +405,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BD13A712CA80D4C00EF2E48 /* Build configuration list for PBXProject "TodoListMVVMDemo" */ = {
+		1BE0370A2CB564B000121407 /* Build configuration list for PBXProject "AIChatDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1BD13A822CA80D4D00EF2E48 /* Debug */,
-				1BD13A832CA80D4D00EF2E48 /* Release */,
+				1BE0371B2CB564B100121407 /* Debug */,
+				1BE0371C2CB564B100121407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BD13A842CA80D4D00EF2E48 /* Build configuration list for PBXNativeTarget "TodoListMVVMDemo" */ = {
+		1BE0371D2CB564B100121407 /* Build configuration list for PBXNativeTarget "AIChatDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1BD13A852CA80D4D00EF2E48 /* Debug */,
-				1BD13A862CA80D4D00EF2E48 /* Release */,
+				1BE0371E2CB564B100121407 /* Debug */,
+				1BE0371F2CB564B100121407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1BD13A6E2CA80D4C00EF2E48 /* Project object */;
+	rootObject = 1BE037072CB564B000121407 /* Project object */;
 }
